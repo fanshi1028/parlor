@@ -82,10 +82,9 @@ src/
 ├── server.py          # FastAPI WebSocket server + Gemma 4 inference
 ├── tts.py             # Platform-aware TTS (MLX on Mac, ONNX on Linux)
 ├── index.html         # Frontend UI (VAD, camera, audio playback)
-└── pyproject.toml     # Dependencies
-benchmarks/
 ├── bench.py           # End-to-end WebSocket benchmark
-└── benchmark_tts.py   # TTS backend comparison
+├── benchmark_tts.py   # TTS backend comparison
+└── pyproject.toml     # Dependencies
 ```
 
 ## Acknowledgments
